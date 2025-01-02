@@ -1,0 +1,42 @@
+
+body {
+background-color: #ffc107;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+.flex-wrap {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+}
+
+.card {
+width: 250px;
+background-color: white;
+border-radius: 0;
+box-shadow: none;
+}
+
+.card img {
+width: 100%;
+height: auto;
+}
+
+.card-body {
+padding: 1rem;
+}
+
+.card-title {
+margin-top: 0;
+}
+
+.card-text ul {
+list-style-type: none;
+padding: 0;
+}
+
+.card-text li {
+margin-bottom: 5px;
+}
